@@ -17,7 +17,7 @@ def fibonacci(a):
     for n in mynums:
         if fibnums[n] <= 4000000:  
             fibnums.append( fibnums[n] + fibnums[n-1])
-            print(fibnums)
+            
 
             if (fibnums[n]) %2 == 0:
                 sumevens += (fibnums[n])
@@ -26,7 +26,8 @@ def fibonacci(a):
         else:
             print('exceeds limit')
             break
-        
-    print(sumevens)
+    
+    print(fibnums)    
+    print('The sum of the even numbers in this Fibonacci sequence = ' , sumevens)
 
 fibonacci(60)
