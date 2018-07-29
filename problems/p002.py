@@ -9,6 +9,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 '''
 def fibonacci(a):
     
+<<<<<<< HEAD
     mynums = list(range(1,(a),1))
     fibnums= [1,2]
     sumevens=0
@@ -31,3 +32,10 @@ def fibonacci(a):
     print('The sum of the even numbers in this Fibonacci sequence = ' , sumevens)
 
 fibonacci(60)
+=======
+    fibnums = list(range(1,(a),1))
+    
+    print(fibnums)
+                   
+fibonacci(10)
+>>>>>>> master
