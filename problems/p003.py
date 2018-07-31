@@ -18,13 +18,16 @@ def myfactors(a):
             factors.append(i)
             
     return factors
-def checkprime(a):
-    x = False
 
-    # function for finding if input is prime
-    # Returns x =  False, if 'a' has a factor and therefore is not prime
-    # x = True , if prime  because looped through without finding factor
+def checkprime(a):
     
+    x = False
+    
+
+#     function for finding if input is prime
+#     Returns x =  False, if 'a' has a factor and therefore is not prime
+#     x = True , if prime  because looped through without finding factor
+
     
     for i in range(2,(a),1):
                 
