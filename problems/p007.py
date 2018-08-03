@@ -10,19 +10,13 @@ def is_prime(a):
     prime_response = True
     
     for n in range (2,a):
-    
-    
-        
+       
         if a % n == 0:
             
             return False
         
     return True
-            
-            
-
-
-
+                        
 def find_primes(nth):
     
     # using the is_prime() function, this function loops to find primes
@@ -30,22 +24,18 @@ def find_primes(nth):
     n = 2
     countprimes = 0
     
-
     while countprimes <= (nth-1):
-        
-        
+            
         prime_response = is_prime(n)
         
         if prime_response == True:
-            
-            
+    
 #            print(n)
             countprimes += 1
             myprime = n
         n +=1
- 
-        
-#    print("number of primes = ",countprimes)
+    
+#   print("number of primes = ",countprimes)
     print("the {}th prime is = ".format(nth), myprime)
 
 
